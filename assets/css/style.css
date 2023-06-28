@@ -751,6 +751,8 @@ p, h1, h2, h3, img{
     align-items: center;
     /*filter: blur(58px);*/
     display: none;
+    position: absolute;
+    right: 8%;
     
   }
   
@@ -765,6 +767,8 @@ p, h1, h2, h3, img{
     border: 1px solid white;
     border-radius: 20px;
     box-sizing: border-box;
+    text-align: center;
+    line-height: 50px;
   }
   
   .titrepopup{
@@ -775,3 +779,5 @@ p, h1, h2, h3, img{
     margin-top: 60px;
     text-transform: uppercase;
   }
+
+  

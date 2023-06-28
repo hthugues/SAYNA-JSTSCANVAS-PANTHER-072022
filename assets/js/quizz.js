@@ -19,7 +19,7 @@ $('#envoyer').click(function () {
                         $('.btnpopup').click(function () {
                             
                             $('.popup').css("display", "none");
-                            $('#alphabet').slideUp(1000).slideDown(1000);
+                            $('#alphabet');
                             setTimeout(() => {
                                 $('#enonce').empty();
                                 $('#enonce').text(quizz[numQuizz+1].enonce);
@@ -36,7 +36,7 @@ $('#envoyer').click(function () {
                         numQuizz++;
                     } else {
 
-                        // Tu es reussit
+                        // Tu as reussit
                         $('#titre').text("");
                         $('#msg-result').text("");
                         $('#popup-result').css("display", "flex");
